@@ -10,11 +10,7 @@ public interface MvpView {
 
     void onError(String message);
 
-    void onError(@StringRes int resId);
-
     void showMessage(String message);
-
-    void showMessage(int resId);
 
     boolean isNetworkConnected();
 
